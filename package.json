@@ -1,0 +1,28 @@
+{
+    "name": "progress-bars",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "rimraf ./dist && webpack --config ./webpack.config.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zhouyuhan0629/Progress-Bars.git"
+    },
+    "author": "Hedy",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/zhouyuhan0629/Progress-Bars/issues"
+    },
+    "homepage": "https://github.com/zhouyuhan0629/Progress-Bars#readme",
+    "devDependencies": {
+        "css-loader": "^6.5.0",
+        "html-webpack-plugin": "^5.5.0",
+        "mini-css-extract-plugin": "^2.4.3",
+        "rimraf": "^3.0.2",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.61.0",
+        "webpack-cli": "^4.9.1"
+    }
+}
